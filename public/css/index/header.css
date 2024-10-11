@@ -1,0 +1,14 @@
+header.top-header {
+  position: sticky;
+  top: 0;
+  width: full;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-header-bg);
+  border-bottom: 1px solid var(--color-header-bottom-border);
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+  height: 70px;
+  @media (max-width: 768px) {
+  }
+}
